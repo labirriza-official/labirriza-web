@@ -3,7 +3,7 @@
   // Número de WhatsApp al que llegan los pedidos (con 52 de México, sin espacios).
   // Cuando el bot tenga su número definitivo, solo cambia este valor.
   const WHATSAPP = '527971066269';
-  const MENSAJE = 'Hola, me gustaría hacer un pedido.';
+  const MENSAJE = 'Hola, quisiera pedir a domicilio';
   const ligaWhatsapp = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(MENSAJE)}`;
   document.querySelectorAll('.js-whatsapp').forEach((a) => {
     a.href = ligaWhatsapp;
